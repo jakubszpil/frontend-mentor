@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](#)
-- Live Site URL: [Add live site URL here](#)
+- Solution URL: [https://www.frontendmentor.io/solutions/solution-of-the-3column-preview-card-component-using-flexbox-WL-A_cnIQ](https://www.frontendmentor.io/solutions/solution-of-the-3column-preview-card-component-using-flexbox-WL-A_cnIQ)
+- Live Site URL: [https://jakubszpil.github.io/frontend-mentor/3-column-preview-card-component-main/](https://jakubszpil.github.io/frontend-mentor/3-column-preview-card-component-main/https://jakubszpil.github.io/frontend-mentor/3-column-preview-card-component-main/)
 
 ## My process
 
@@ -38,7 +38,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 - [SCSS](https://sass-lang.com/) - SCSS
 
