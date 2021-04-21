@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/solution-of-the-3column-preview-card-component-using-flexbox-WL-A_cnIQ](https://www.frontendmentor.io/solutions/solution-of-the-3column-preview-card-component-using-flexbox-WL-A_cnIQ)
-- Live Site URL: [https://jakubszpil.github.io/frontend-mentor/3-column-preview-card-component-main/](https://jakubszpil.github.io/frontend-mentor/3-column-preview-card-component-main/https://jakubszpil.github.io/frontend-mentor/3-column-preview-card-component-main/)
+- Live Site URL: [https://jakubszpil.github.io/frontend-mentor/3-column-preview-card-component-main/](https://jakubszpil.github.io/frontend-mentor/3-column-preview-card-component-main/)
 
 ## My process
 
