@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+:root {
+  font-size: 15px;
+  --color-primary-orange: hsl(31, 77%, 52%);
+  --color-primary-cyan: hsl(184, 100%, 22%);
+  --color-primary-darkcyan: hsl(179, 100%, 13%);
+
+  --color-neutral-white: hsla(0, 0%, 100%, 0.75);
+  --color-neutral-gray: hsl(0, 0%, 95%);
+
+  --font-family-body: 'Lexend Deca', sans-serif;
+  --font-family-heading: 'Big Shoulders Display', cursive;
+}
+
+html,
+body {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  background-color: var(--color-neutral-gray);
+  font-family: var(--font-family-body);
+}
+
+.container {
+  width: clamp(250px, 100%, 1180px);
+  height: auto;
+  padding: 8rem 2rem;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+
+  .grid {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    overflow: hidden;
+  }
+}
+
+.card {
+  flex: 1 1 300px;
+
+  $this: &;
+
+  color: var(--color-neutral-white);
+  padding: 3rem;
+  &__title {
+    margin: 2rem 0;
+    color: var(--color-neutral-gray);
+    font-size: 2.5rem;
+    font-family: var(--font-family-heading);
+    text-transform: uppercase;
+  }
+
+  &__quote {
+    margin: 1rem 0;
+    line-height: 1.8rem;
+  }
+
+  &:nth-child(1) {
+    background-color: var(--color-primary-orange);
+    #{$this}__button {
+      color: var(--color-primary-orange);
+    }
+  }
+  &:nth-child(2) {
+    background-color: var(--color-primary-cyan);
+    #{$this}__button {
+      color: var(--color-primary-cyan);
+    }
+  }
+  &:nth-child(3) {
+    background-color: var(--color-primary-darkcyan);
+    #{$this}__button {
+      color: var(--color-primary-darkcyan);
+    }
+  }
+
+  &__button {
+    margin-top: 5rem;
+    border: 0;
+    background-color: white;
+    padding: 1rem 3rem;
+
+    border-radius: 2rem;
+    font-family: var(--font-family-body);
+    text-transform: capitalize;
+    border: 2px solid white;
+
+    &::after {
+      background: transparent;
+    }
+
+    &:hover {
+      box-sizing: border-box;
+      background: transparent;
+      color: white !important;
+      cursor: pointer;
+      border: 2px solid white;
+    }
+  }
+}
+
+.attribution {
+  text-align: center;
+  padding: 1rem;
+}
